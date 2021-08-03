@@ -1,0 +1,11 @@
+version: '2'
+services:
+  hlds:
+    image: "unbalancedmind/hlds:latest"
+    ports:
+      - 27015/tcp:27015/tcp
+      - 27015/udp:27015/udp
+      - 27020/udp:27020/udp
+      - 26900/udp:26900/udp
+    volumes:
+      - /data/action:/root/hlds/action
