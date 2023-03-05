@@ -23,7 +23,7 @@ services:
 
 
 Server/Host Setup(ubuntu 16.04 lts):
-
+```
 curl -fsSL https://get.docker.com | sh
 systemctl enable docker
 curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
@@ -38,5 +38,5 @@ curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compo
 chmod +x /usr/local/bin/docker-compose
 curl -L https://github.com/andreaskoch/dcsg/releases/download/v0.4.0/dcsg_linux_amd64 > /usr/local/bin/dcsg
 chmod +x /usr/local/bin/dcsg
-
+```
 
